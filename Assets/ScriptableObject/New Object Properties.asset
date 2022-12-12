@@ -15,4 +15,4 @@ MonoBehaviour:
   IsRotate: 0
   IsPhysical: 0
   ObjectMaterial: {fileID: 2100000, guid: 9bd7cfe3f186c1240848ba8b0f3a358e, type: 2}
-  ObjectNumber: 10
+  ObjectNumber: 1

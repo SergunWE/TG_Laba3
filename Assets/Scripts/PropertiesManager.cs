@@ -32,7 +32,7 @@ public class PropertiesManager : MonoBehaviour
         var currentPos = startPosition.position;
         for (int i = 0; i < objectProperties.ObjectNumber; i++)
         {
-            var tv = Instantiate(objectModel, currentPos, Quaternion.Euler(0,0,90));
+            var tv = Instantiate(objectModel, currentPos, Quaternion.Euler(0,-180,0));
             currentPos += Vector3.right * xzStep;
             if (currentPos.x > _xStop)
             {
